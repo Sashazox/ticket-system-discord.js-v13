@@ -1,0 +1,15 @@
+{
+  "clientId": "Client ID",
+  "token": "Bot Token",
+
+  "parentOpened": "Category ID",
+  "Category1": "Option 1",
+  "Category2": "Option 2",
+  "Category3": "Option 3",
+  "Category4": "Option 4",
+
+  "roleSupport": "Ticket Responder Role ID",
+  
+  "logsTicket": "Ticket Log Channel ID",
+  "ticketChannel": "Ticket Channel ID"
+}

@@ -247,7 +247,7 @@ module.exports = {
             const embed = new client.discord.MessageEmbed()
               .setColor('#ff0000')
               .setAuthor({name: 'Ticket Log', iconURL: 'https://cdn.discordapp.com/attachments/1001283718356418660/1019748659274993684/Apokolips_Ticket_Thumbnail.gif'})
-              .setDescription(`Channel ID \`${chan.id}\`\nTicket created by <@!${chan.topic}>\nTicket closed by <@!${interaction.user.id}>\n\nلاگ: [**Transcript**](${getPasteUrl(result)})`)
+              .setDescription(`Channel ID \`${chan.id}\`\nTicket created by <@!${chan.topic}>\nTicket closed by <@!${interaction.user.id}>\n\nTranscript: [**Transcript**](${getPasteUrl(result)})`)
               .setColor('#ff0000')
               .setThumbnail('https://cdn.discordapp.com/attachments/1001283718356418660/1019748659274993684/Apokolips_Ticket_Thumbnail.gif')
               .setFooter({text: "This log will be deleted after 24 hours", iconURL: ('https://cdn.discordapp.com/attachments/1001283718356418660/1019747667301126144/Apokolips_Ticket_Footer.gif')})
